@@ -1,4 +1,4 @@
 #!/bin/bash
 
 cd /target
-createrepo .
+createrepo --checksum sha .
